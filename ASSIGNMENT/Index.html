@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <title>The map centers to the specified city</title>
+    <link href="style.css" rel="stylesheet" />
+    
+    
+</head>
+<body>
+
+    <div class="jumbotron" >
+        <div class="container-fluid">
+           <h1 style="margin-left: 10%; margin-top:1%;">Map</h1>
+
+            
+
+            <div id="main_search">
+                <input id="city" type="text" placeholder="Search for a specific city" style=" font-size: larger;  background-color:lightblue; height:40px; width:300px;margin-left: 150px; margin-top:-1%;" />
+            </div>
+
+    <div class="container-fluid">
+        <div id="googleMap" style="height: 500px; width: 1200px; margin-left: auto; margin-right: auto ; margin-top:0%;">
+
+    </div>
+</div>
+        </div>
+    </div>
+
+    <div id="output">
+    </div>
+
+        
+    
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDF3Pa3OWTg-kzmh9ZI8zXo_LuJ9Pqiurg&libraries=places"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="Scripts/jquery-3.1.1.min.js"></script>
+    <script src="main.js"></script>
+
+</body>
+</html>

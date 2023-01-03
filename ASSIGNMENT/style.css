@@ -1,0 +1,39 @@
+.jumbotron {
+    background-color: transparent;
+    margin: 0;
+    padding: 10px;
+    font:italic;
+    
+  }
+
+  body {
+    color: #000000;
+    font-family: serif;
+    font-style: italic;
+    font-size: larger;
+
+  }
+
+  #output {
+    text-align: center;
+    font-size: 2em;
+    margin: 20px auto;
+  }
+
+ #city{
+size: 40px;
+margin-right: 50%;
+font-family:serif;
+font-style: italic;
+color: #000000;}
+
+#map{
+    width: 60%;
+    height: auto;
+
+  }
+
+  
+  
+
+ 
